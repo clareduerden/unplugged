@@ -98,6 +98,100 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ------ Base Header & Footer Styles ------*/
+
+header,
+footer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+header .content-wrapper {
+  display: flex;
+  border: 1px green solid;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+header nav ul {
+  list-style-type: none;
+  display:flex;
+  justify-content: space-around;
+  border: solid 1px red;
+  padding-inline-start: 0px;
+}
+
+
+footer .content-wrapper {
+
+}
+footer .footer-content {
+
+}
+footer .contact {
+
+}
+footer .social {
+
+}
+footer .social-icons {
+
+}
+footer .copyright {
+
+}
+
+
+/* ------- HOMEPAGE - HERO AREA ------- */
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-area .content-wrapper {
+
+}
+
+/* ------ HOMEPAGE - ASIDE --------- */
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+aside .content-wrapper {
+
+}
+aside .form-description {
+
+}
+aside .form {
+
+}
+
+/* -------HOMEPAGE - FEATURES SECTION */
+.features {
+
+}
+.features .content-wrapper {
+
+}
+.feature-items {
+
+}
+.feature-item {
+
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -263,4 +357,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
