@@ -106,10 +106,8 @@ footer {
   align-items: center;
   flex-flow: row wrap;
 }
-
-/* ------ MOBILE Header Styles ------*/
 header .content-wrapper {
-  /* flex-basis: 100%;  TAKEN OUT FROM COMPARING SOLUTION */
+  /* flex-basis: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,8 +129,6 @@ header nav ul {
 header nav ul li a {
   text-decoration: none;
 }
-
-/* ------ MOBILE Footer Styles ------*/
 /* footer .content-wrapper {
   display: flex;
   justify-content: center;
@@ -168,7 +164,11 @@ footer .social-icons p {
   justify-content: center;
 } */
 
-/* ------- MOBILE Homepage Hero Area------- */
+
+/* -----------------MOBILE STYLES - HOMEPAGE--------------------- */
+
+/* Hero Area */
+
 .hero-area {
   display: flex;
   justify-content: center;
@@ -180,7 +180,9 @@ footer .social-icons p {
   justify-content: flex-start; */
 }
 
-/* ------ MOBILE Homepage Newsletter Area --------- */
+
+/* Newsletter Aside */
+
 aside {
   display: flex;
   justify-content: center;
@@ -201,7 +203,8 @@ aside .form {
   /* flex-basis: 100%; */
 }
 
-/* ------ MOBILE Homepage Features Area --------- */
+/* Features Area */
+
 .features {
   display: flex;
   justify-content: center;
@@ -220,7 +223,8 @@ aside .form {
   flex-flow: row wrap;
 }
 
-/* ------ MOBILE Homepage Reviews Section --------- */
+/* Reviews section */
+
 .reviews {
   display: flex;
   justify-content: center;
@@ -242,10 +246,35 @@ aside .form {
 
 }
 
-/* ------ MOBILE FAQ page -  --------- */
+/* -----------------MOBILE STYLES - ABOUT PAGE--------------------- */
 
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
+/* -----------------MOBILE STYLES - FAQ PAGE--------------------- */
 
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 
 
