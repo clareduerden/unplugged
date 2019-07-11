@@ -101,6 +101,7 @@ textarea {
 /* ------ BASE STYLES ------*/
 .content-wrapper {
   width: 90%;
+  margin: 50px 0;
 }
 
 /* ------ BASE HEADER & FOOTER STYLES ------*/
@@ -111,14 +112,19 @@ footer {
   align-items: center;
   flex-flow: row wrap;
 }
+header {
+  padding: 15px 0;
+}
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 header .header-divider {
   width: 100%;
+  padding: 15px 0;
 }
 header nav {
   width: 60%;
@@ -139,6 +145,15 @@ header nav ul li a {
 }
 footer .content-wrapper {
   width: 55%;
+}
+footer h4 {
+  padding-bottom: 20px;
+  /* remove browser default styling */
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+footer .social {
+  padding-top: 50px;
 }
 footer .social-icons {
   display: flex;
@@ -163,10 +178,8 @@ footer .social-icons p {
   justify-content: center;
   flex-flow: row wrap;
 }
-.hero-area .content-wrapper {
-  /* display: flex;
-  flex-basis: 100%;
-  justify-content: flex-start; */
+.hero-area h1 {
+  padding-right: 20px;
 }
 
 
@@ -178,18 +191,11 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
-aside .content-wrapper {
-  /* display: flex;
-  flex-basis: 100%;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap; */
-}
 aside .form-description {
-  /* flex-basis: 100%; */
+  padding-right: 20px;
 }
 aside .form {
-  /* flex-basis: 100%; */
+
 }
 
 /* Features Area */
@@ -198,6 +204,9 @@ aside .form {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+.features h2 {
+  padding-right: 20px;
 }
 .feature-items {
   display: flex;
@@ -215,6 +224,9 @@ aside .form {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+.reviews h2 {
+  padding-right: 20px;
 }
 .reviews h3 {
   /* width: 50%; */
@@ -249,6 +261,11 @@ aside .form {
   align-items: center;
   flex-flow: row wrap;
 }
+
+
+
+
+
 
 
 
