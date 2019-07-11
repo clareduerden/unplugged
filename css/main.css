@@ -98,6 +98,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ------ BASE STYLES ------*/
+.content-wrapper {
+  width: 90%;
+}
+
 /* ------ BASE HEADER & FOOTER STYLES ------*/
 header,
 footer {
@@ -107,20 +112,23 @@ footer {
   flex-flow: row wrap;
 }
 header .content-wrapper {
-  /* flex-basis: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+header .header-divider {
+  width: 100%;
+}
 header nav {
-  /* flex-basis: 100%; */
+  width: 60%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
 }
 header nav ul {
+  width: 60%;
   display: flex;
   list-style-type: none;
   justify-content: space-around;
@@ -129,25 +137,9 @@ header nav ul {
 header nav ul li a {
   text-decoration: none;
 }
-/* footer .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-/* footer .footer-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+footer .content-wrapper {
+  width: 55%;
 }
-footer .contact {
-  flex-basis: 100%;
-  text-align: center;
-}
-footer .social {
-  flex-basis: 100%;
-  text-align: center;
-} */
 footer .social-icons {
   display: flex;
   justify-content: space-around;
@@ -158,12 +150,9 @@ footer .social-icons p {
   justify-content: center;
   align-items: center;
 }
-/* footer .copyright {
-  display: flex;
-  flex-basis: 100%;
-  justify-content: center;
-} */
-
+.copyright {
+  width: 100%;
+}
 
 /* -----------------MOBILE STYLES - HOMEPAGE--------------------- */
 
@@ -210,17 +199,14 @@ aside .form {
   justify-content: center;
   flex-flow: row wrap;
 }
-.features .content-wrapper {
-  /* display: flex;
-  justify-content: flex-start;
-  flex-flow: row wrap; */
-}
-.features .feature-items {
+.feature-items {
   display: flex;
-  /* flex-basis: 100%; */
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+.feature-item {
+  width: 55%;
 }
 
 /* Reviews section */
@@ -230,20 +216,8 @@ aside .form {
   justify-content: center;
   flex-flow: row wrap;
 }
-.reviews .content-wrapper {
-  /* display: flex;
-  justify-content: flex-start;
-  flex-flow: row wrap; */
-}
-.reviews .lacrue {
-  /* display: flex;
-  flex-basis: 100%;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap; */
-}
-.reviews .review-description {
-
+.reviews h3 {
+  /* width: 50%; */
 }
 
 /* -----------------MOBILE STYLES - ABOUT PAGE--------------------- */
