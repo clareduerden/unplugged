@@ -437,6 +437,7 @@ aside h3 {
   }
   .features article {
     flex-basis: 30%;
+    margin: 50px;
   }
 
   /* Reviews section ---- */
@@ -444,11 +445,14 @@ aside h3 {
     justify-content: center;
     padding: 100px 0;
   }
+  .reviews img {
+    width: 48%;
+  }
   .reviews article {
     justify-content: space-between;
   }
   .reviews article div {
-    width: 50%;
+    width: 48%;
   }
 
   /* Footer section ----- */
@@ -457,14 +461,12 @@ aside h3 {
   }
   .footer-content {
     margin: 100px 0;
+    width: 80%;
   }
-  footer .contact {
-    width: 30%;
-  }
+  footer .contact,
   footer .social {
     width: 30%;
   }
-
 
   /* ABOUT PAGE TABLET STYLES -------------- */
 
