@@ -101,10 +101,51 @@ textarea {
 
 
 
-
-
-
 /* ------ BASE STYLES ------*/
+
+html {
+  font-size: 16px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+ul, 
+ol {
+  list-style-type: none;
+}
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.75em;
+}
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+}
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+} 
+p {
+  font-size: 1.125em;
+  line-height: 1.5;
+}
+ 
+img {
+}
+ 
+figure {
+}
+ 
+address {
+  font-style: normal;
+}
 
 .content-wrapper {
   /* Measurement taken from design comp files */
@@ -142,10 +183,6 @@ header nav ul {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  /* Remove browser default styling */
-  padding-inline-start: 0px;
-  margin: 0;
-  list-style-type: none;
 }
 header nav ul li a {
   text-decoration: none;
@@ -576,9 +613,9 @@ aside h3 {
     justify-content: space-between;
   }
 
-  /* FAQ PAGE DESKTOP STYLES -------------- */
+  /* FAQ PAGE DESKTOP STYLES  -------------- */
 
-
+  /* None - same as Tablet layout */
 
 
 }
