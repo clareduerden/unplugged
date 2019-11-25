@@ -454,7 +454,6 @@ aside h3 {
 
   /* Tablet - Reviews section ---- */
   .reviews {
-    justify-content: center;
     padding: 100px 0;
   }
   .reviews h2 {
@@ -530,6 +529,39 @@ aside h3 {
 
   /* HOMEPAGE DESKTOP STYLES -------------- */
 
+  /* Desktop - Newsletter Aside ---- */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+  .form,
+  .form-description {
+    flex-basis: 35%;
+  }
+
+  /* Desktop - Features Area ---- */
+  .feature-items {
+    justify-content: space-around;
+  }
+  .features article {
+    flex-basis: 20%;
+  }
+
+  /* Desktop - Reviews section ---- */
+  .reviews article {
+    justify-content: space-between;
+  }
+
+  /* Tablet - Footer section ----- */
+  .footer-content {
+    justify-content: space-between;
+  }
+  .footer-content {
+    width: 90%;
+  }
+  footer .contact,
+  footer .social {
+    width: 25%;
+  }
 
   /* ABOUT PAGE DESKTOP STYLES -------------- */
 
