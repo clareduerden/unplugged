@@ -515,7 +515,7 @@ aside h3 {
     justify-content: space-between;
   }
   .faq h2 {
-    width: 80%;
+    width: 100%;
   }
   .faq-item {
     width: 45%;
@@ -526,6 +526,10 @@ aside h3 {
 
 
 @media only screen and (min-width: 1200px) {
+
+  .content-wrapper {
+    width: 80%;
+  }
 
   /* HOMEPAGE DESKTOP STYLES -------------- */
 
@@ -565,6 +569,12 @@ aside h3 {
 
   /* ABOUT PAGE DESKTOP STYLES -------------- */
 
+  /* Desktop - Contact section ------ */
+  .contact-section .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
 
   /* FAQ PAGE DESKTOP STYLES -------------- */
 
