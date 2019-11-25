@@ -98,6 +98,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+
+
+
+
+
 /* ------ BASE STYLES ------*/
 
 .content-wrapper {
@@ -313,6 +319,7 @@ aside h3 {
 
 
 
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -396,14 +403,19 @@ aside h3 {
   clear: both;
 }
 
+
+
+
+
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
 
+
 @media only screen and (min-width: 768px) {
-  /* Style adjustments for TABLET viewports */
 
   /* HOMEPAGE TABLET STYLES -------------- */
 
@@ -500,11 +512,21 @@ aside h3 {
 
   /* FAQ PAGE TABLET STYLES -------------- */
 
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+  .faq h2 {
+    width: 80%;
+  }
+  .faq-item {
+    width: 45%;
+  }
 
-}
+} /* End of Media Query for Tablet layout */
+
+
 
 @media only screen and (min-width: 1200px) {
-  /* Desktop viewports */
 
   /* HOMEPAGE DESKTOP STYLES -------------- */
 
