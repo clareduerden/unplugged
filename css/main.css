@@ -109,11 +109,13 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  color: #e2e3ed;
 }
-
 ul, 
 ol {
   list-style-type: none;
+  padding-inline-start: 0px;
+  margin: 0;
 }
 a {
   color: #e2e3ed;
@@ -121,20 +123,27 @@ a {
 }
 h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 3.75em;
+  font-size: 2.25em;
+  font-weight: 500;
 }
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.25em;
+  font-size: 1.875em;
+  line-height: 1;
+  font-weight: 500;
+  margin: 0;
 }
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.875em;
+  font-size: 1.125em;
+  font-weight: 500;
 } 
 p {
-  font-size: 1.125em;
-  line-height: 1.5;
+  font-size: 0.875em;
+  line-height: 1.125;
+  font-weight: 400;
+  margin: 0;
 }
  
 img {
@@ -174,12 +183,16 @@ header {
   width: 100%;
   height: 1px;
   background: grey;
-  margin: 10px 0 20px 0;
+  margin: 15px 0;
 }
 header nav {
   display: flex;
   justify-content: space-around;
   width: 60%;
+  /* Apply text styping for Nav items */
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.125em;
 }
 header nav ul {
   width: 100%;
@@ -187,7 +200,7 @@ header nav ul {
   justify-content: space-around;
 }
 header nav ul li a {
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 .footer-content {
   display: flex;
@@ -227,13 +240,23 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url("../img/jake-melara-30679-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .hero-area h1 {
-  margin: 50px 15px 330px 0;
+  margin-top: 50px;
+  margin-bottom: 330px;
 }
 
 /* Newsletter Aside ------ */
 
+aside {
+  padding-top: 25px;
+  padding-bottom: 50px;
+  background: #527158;
+}
 aside,
 aside .content-wrapper {
   display: flex;
@@ -247,9 +270,13 @@ aside .form {
   width: 100%;
   margin-top: 30px;
 }
+.form h3 {
+  padding-bottom: 15px;
+}
 input[type=text] {
   /* This tells the browser to account for any border and padding in the values I specify for wifth and height - useful for layout elements */
   box-sizing: border-box;
+  padding: 15px;
   width: 100%;
   color: #2a423a;
   font-style: italic;
@@ -272,6 +299,10 @@ input[type=button] {
   display: flex;
   justify-content: center;
   padding: 50px 0;
+  background-image: url("../img/rawpixel-800820-unsplash1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .features h2 {
   margin: 0;
@@ -297,6 +328,7 @@ input[type=button] {
   display: flex;
   justify-content: center;
   padding: 50px 0;
+  background: #2a423a;
 }
 .reviews article {
   display: flex;
@@ -305,7 +337,7 @@ input[type=button] {
   flex-flow: row wrap;
 }
 .reviews h2 {
-  margin-bottom: 25px;
+
 }
 .reviews h3 {
   width: 80%;
@@ -591,6 +623,9 @@ input[type=button] {
 
   /* HOMEPAGE DESKTOP STYLES -------------- */
 
+  .hero-area h1 {
+     width: 70%;
+  }
   /* Desktop - Newsletter Aside ---- */
   aside .content-wrapper {
     justify-content: space-around;
