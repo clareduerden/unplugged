@@ -111,6 +111,11 @@ body {
   font-size: 1em;
   color: #e2e3ed;
 }
+/* Remove any default margin and padding */
+p, a, h1, h2, h3, h4 {
+  padding: 0;
+  margin: 0;
+}
 ul, 
 ol {
   list-style-type: none;
@@ -129,26 +134,24 @@ h1 {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
-  line-height: 1;
   font-weight: 500;
-  margin: 0;
 }
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
   font-weight: 500;
+  margin-bottom: 0.5em;
 } 
 p {
   font-size: 0.875em;
   line-height: 1.125;
   font-weight: 400;
-  margin: 0;
 }
- 
+
 img {
 }
- 
+
 figure {
 }
  
@@ -199,9 +202,6 @@ header nav ul {
   display: flex;
   justify-content: space-around;
 }
-header nav ul li a {
-  /* text-decoration: none; */
-}
 .footer-content {
   display: flex;
   justify-content: center;
@@ -212,14 +212,11 @@ header nav ul li a {
 footer .contact {
   width: 100%;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 footer .social {
   width: 100%;
   text-align: center;
-}
-footer p {
-  margin: 0;
 }
 footer .social-icons {
   display: flex;
@@ -263,15 +260,9 @@ aside .content-wrapper {
   justify-content: center;
   flex-flow: row wrap;
 }
-aside h3 {
-  margin: 0;
-}
 aside .form {
   width: 100%;
   margin-top: 30px;
-}
-.form h3 {
-  padding-bottom: 15px;
 }
 input[type=text] {
   /* This tells the browser to account for any border and padding in the values I specify for wifth and height - useful for layout elements */
@@ -304,9 +295,6 @@ input[type=button] {
   background-size: cover;
   background-position: center;
 }
-.features h2 {
-  margin: 0;
-}
 .feature-items {
   display: flex;
   justify-content: center;
@@ -316,10 +304,6 @@ input[type=button] {
   width: 55%;
   text-align: center;
   margin-top: 50px;
-}
-/* remove default padding from p tag */
-.features p {
-  margin: 0;
 }
 
 /* Reviews section -------- */
@@ -336,12 +320,9 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
 }
-.reviews h2 {
-
-}
 .reviews h3 {
   width: 80%;
-  margin: 20px 0;
+  margin-top: 20px;
 }
 
 
@@ -360,9 +341,7 @@ input[type=button] {
 }
 .mission {
   padding: 50px 0;
-}
-.mission h2 {
-  margin: 0;
+  background: #527158;
 }
 .mission p {
   margin: 15px 0 0 0;
@@ -372,9 +351,10 @@ input[type=button] {
 }
 .contact-section {
   padding: 50px 0;
+  background: #2a423a;
 }
-.contact-section p {
-  margin: 0;
+.contact-box {
+  padding-top: 1em;
 }
 
 
@@ -387,6 +367,7 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: #527158;
 }
 .faq .content-wrapper {
   margin: 50px;
