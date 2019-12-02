@@ -355,6 +355,24 @@ input[type=button] {
 .map {
   margin: 0;
 }
+/* figure is parent to iframe - 100% width, 0 height, padding creates the space for the map
+position the parent container with 'relative' so the absolute position will work below */
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+  overflow: hidden;
+  position: relative;
+}
+/* iframe wiil be positioned relative to parent - 0 at top and bottom 
+and iframe will take up 100% width and height of parent container */
+.map iframe {
+  width: 100%;;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .contact-section {
   padding: 50px 0;
   background: #2a423a;
