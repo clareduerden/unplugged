@@ -145,7 +145,7 @@ h4 {
 } 
 p {
   font-size: 0.875em;
-  line-height: 1.125;
+  line-height: 1.28;
   font-weight: 400;
 }
 img {
@@ -313,9 +313,6 @@ input[type=button] {
   background-size: cover;
   background-position: center;
 }
-.features h2 {
-  width: 90%;
-}
 .feature-items {
   display: flex;
   justify-content: center;
@@ -402,7 +399,6 @@ and iframe will take up 100% width and height of parent container */
 .contact-box {
   padding-top: 1em;
 }
-
 
 
 /* -----------------MOBILE FIRST STYLES - FAQ PAGE--------------------- */
@@ -530,7 +526,27 @@ and iframe will take up 100% width and height of parent container */
 
   /* HOMEPAGE TABLET STYLES -------------- */
 
+  /* Tablet - Base Styles */
+  .content-wrapper {
+    width: 83%;
+  }
+  h1 {
+    font-size: 3em;
+    line-height: 1;
+  }
+  h2 {
+    font-size: 2.25em;
+  }
+  h3, 
+  h4 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  } 
+
   /* Tablet - Header styling ---- */
+  header { 
+    padding: 30px 0;
+  }
   header .content-wrapper {
     justify-content: space-between;
   }
@@ -542,28 +558,54 @@ and iframe will take up 100% width and height of parent container */
   }
   header nav {
     width: 20%;
+    font-size: 1em;
   }
   header nav ul {
     justify-content: space-between;
   }
 
+  /* Tablet - Hero Area -------- */
+  .hero-area h1 {
+    margin-top: 90px;
+    margin-bottom: 415px;
+  }
+
   /* Tablet - Newsletter Aside ---- */
+  aside {
+    padding-top: 50px;
+  }
   aside .content-wrapper {
     justify-content: space-between;
+  }
+  aside .form {
+    margin-top: 0;
   }
   .form,
   .form-description {
     flex-basis: 45%;
   }
+  input[type=button] {
+    padding: 10px 0;
+  }
+  input[type=text] {
+    padding: 10px;
+  }
 
   /* Tablet - Features Area ---- */
-  .feature-items {
-    justify-content: space-around;
+  .features {
     padding: 100px 0;
   }
+  .feature-items {
+    justify-content: space-around;
+  }
   .features article {
-    flex-basis: 30%;
-    margin: 50px;
+    flex-basis: 32%;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .features i {
+    font-size: 4.5em;
   }
 
   /* Tablet - Reviews section ---- */
@@ -571,7 +613,7 @@ and iframe will take up 100% width and height of parent container */
     padding: 100px 0;
   }
   .reviews h2 {
-    width: 75%;
+    width: 78%;
   }
   .reviews figure {
     width: 50%;
@@ -593,18 +635,15 @@ and iframe will take up 100% width and height of parent container */
   }
   .footer-content {
     margin: 100px 0;
-    width: 80%;
+    width: 90%;
   }
   footer .contact,
   footer .social {
-    width: 30%;
+    width: 35%;
+    margin-bottom: 0;
   }
 
   /* ------- ABOUT PAGE TABLET STYLES -------------- */
-
-  .content-wrapper {
-    width: 85%;
-  }
 
   /* Tablet - Mission section -------- */
   .mission-content {
