@@ -303,6 +303,10 @@ input[type=button] {
   justify-content: center;
   flex-flow: row wrap;
 }
+.features i {
+  margin-bottom: 40px;
+  font-size: 3.75em;
+}
 .features article {
   width: 55%;
   text-align: center;
