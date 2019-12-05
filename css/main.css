@@ -646,39 +646,58 @@ and iframe will take up 100% width and height of parent container */
   /* ------- ABOUT PAGE TABLET STYLES -------------- */
 
   /* Tablet - Mission section -------- */
+  .mission {
+    padding: 100px 0;
+  }
   .mission-content {
     justify-content: space-between;
   }
+  .mission h2 {
+    width: 95%;
+  }
   .mission-content p {
-    width: 40%;
+    width: 45%;
+    margin-top: 30px;
   }
   .map figure {
-    padding-bottom: 45%;
+    padding-bottom: 48%;
   }
 
   /* Tablet - Contact section ------ */
-  .contact-section .content-wrapper {
+  
+  .contact-section {
+    padding: 100px 0;
+  }
+  }.contact-section .content-wrapper {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
   }
   .contact-section h2 {
     width: 80%;
+    margin-bottom: 30px;
   }
   .contact-section .contact-box {
     width: 45%;
   }
 
+
   /* FAQ PAGE TABLET STYLES -------------- */
 
   .faq .content-wrapper {
     justify-content: space-between;
+    margin: 100px 0;
   }
   .faq h2 {
     width: 100%;
   }
+  .faq h4 {
+    font-size: 0.875em;
+    line-height: 1.28;
+  }
   .faq-item {
     width: 45%;
+    margin-top: 40px;
   }
 
 } /* End of Media Query for Tablet layout */
