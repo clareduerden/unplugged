@@ -141,7 +141,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
   font-weight: 500;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 } 
 p {
   font-size: 0.875em;
@@ -286,6 +286,9 @@ input[type=text] {
   width: 100%;
   color: #2a423a;
   font-style: italic;
+  background: #e1e2ea;
+  border: none;
+  font-size: 0.875em;
 }
 input[type=button] {
   width: 100%;
@@ -309,6 +312,9 @@ input[type=button] {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.features h2 {
+  width: 90%;
 }
 .feature-items {
   display: flex;
@@ -344,7 +350,7 @@ input[type=button] {
 }
 .reviews h3 {
   width: 80%;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 
