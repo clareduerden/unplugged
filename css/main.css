@@ -223,7 +223,19 @@ footer .social {
 }
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-icons i {
+  font-size: 1.5em;
+  /* Give the icon a size and then make it circle */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #527158;
+  /* Position contents of icon in the center of the circle */
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 footer .copyright {
