@@ -141,7 +141,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
   font-weight: 500;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 } 
 p {
   font-size: 0.875em;
@@ -154,13 +154,10 @@ img {
 figure {
   margin: 0;
 }
- 
 address {
   font-style: normal;
 }
-
 .content-wrapper {
-  /* Measurement taken from design comp files */
   max-width: 1200px;
   width: 90%;
 }
@@ -209,13 +206,16 @@ header nav ul {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  width: 55%;
+  width: 60%;
   margin: 50px 0;
+}
+footer h4 {
+  margin-bottom: 1em;
 }
 footer .contact {
   width: 100%;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 footer .social {
   width: 100%;
@@ -382,7 +382,7 @@ position the parent container with 'relative' so the absolute position will work
 .map figure {
   width: 100%;
   height: 0;
-  padding-bottom: 100%;
+  padding-bottom: 120%;
   overflow: hidden;
   position: relative;
 }
@@ -424,12 +424,6 @@ and iframe will take up 100% width and height of parent container */
 .faq-item {
   width: 100%;
   margin-top: 50px;
-}
-.faq-item h4 {
-  margin: 0 0 15px 0;
-}
-.faq-item p {
-  margin: 0;
 }
 
 
