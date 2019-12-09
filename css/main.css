@@ -223,7 +223,7 @@ footer .social {
 }
 footer .social-icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .social-icons i {
@@ -541,7 +541,7 @@ and iframe will take up 100% width and height of parent container */
   h4 {
     font-size: 1.5em;
     line-height: 1.25;
-  } 
+  }
 
   /* Tablet - Header styling ---- */
   header { 
@@ -642,6 +642,9 @@ and iframe will take up 100% width and height of parent container */
     width: 35%;
     margin-bottom: 0;
   }
+  footer a {
+    font-size: 0.875em;
+  }
 
   /* ------- ABOUT PAGE TABLET STYLES -------------- */
 
@@ -696,7 +699,7 @@ and iframe will take up 100% width and height of parent container */
     line-height: 1.28;
   }
   .faq-item {
-    width: 45%;
+    width: 46%;
     margin-top: 40px;
   }
 
@@ -778,7 +781,7 @@ and iframe will take up 100% width and height of parent container */
     margin-bottom: 90px;
   }
 
-  /* Tablet - Footer section ----- */
+  /* Desktop - Footer section ----- */
   .footer-content {
     justify-content: space-between;
   }
@@ -792,10 +795,34 @@ and iframe will take up 100% width and height of parent container */
   .social-icons i {
     font-size: 1.125em;
   }
+  footer a {
+    font-size: 1.125em;
+  }
 
   /* ABOUT PAGE DESKTOP STYLES -------------- */
 
-  /* Desktop - Contact section ------ */
+  /* Desktopz - Mission section -------- */
+  .mission {
+    padding: 100px 0;
+  }
+  .mission-content {
+    justify-content: space-between;
+  }
+  .mission h2 {
+    font-size: 3em;
+    line-height: 1.5;
+    width: 90%;
+  }
+  .mission p {
+    margin-right: 15px;
+  }
+  .map figure {
+    padding-bottom: 40%;
+  }
+  .contact-section h2 {
+    font-size: 3em;
+    line-height: 1.5;
+  }
   .contact-section .content-wrapper {
     display: flex;
     flex-flow: row wrap;
@@ -803,7 +830,12 @@ and iframe will take up 100% width and height of parent container */
   }
 
   /* FAQ PAGE DESKTOP STYLES  -------------- */
-  /* None - same as Tablet layout */
+
+  .faq h4 {
+    font-size: 1.125em;
+    line-height: 1;
+    margin-bottom: 15px;
+  }
 
 
 }
