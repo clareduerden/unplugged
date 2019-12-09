@@ -668,7 +668,7 @@ and iframe will take up 100% width and height of parent container */
   .contact-section {
     padding: 100px 0;
   }
-  }.contact-section .content-wrapper {
+  .contact-section .content-wrapper {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -706,17 +706,38 @@ and iframe will take up 100% width and height of parent container */
 
 @media only screen and (min-width: 1200px) {
 
+  /*Desktop - Base Styles ------------ */
   .content-wrapper {
     width: 80%;
   }
+  h1 {
+    font-size: 3.75em;
+    line-height: 1.25;
+  }
+  h3, 
+  h4 {
+    font-size: 1.875em;
+  }
+  p {
+    font-size: 1.125em;
+    line-height: 1.33;
+  }
+  a {
+    font-size: 1.125em;
+  }
 
-  /* HOMEPAGE DESKTOP STYLES -------------- */
+  /* ----- HOMEPAGE DESKTOP STYLES -------------- */
 
   header figure {
-    width: 28%;
+    width: 30%;
+  }
+  header nav {
+    width: 14%;
   }
   .hero-area h1 {
      width: 70%;
+     margin-top: 50px;
+     margin-bottom: 430px;
   }
 
   /* Desktop - Newsletter Aside ---- */
@@ -725,20 +746,36 @@ and iframe will take up 100% width and height of parent container */
   }
   .form,
   .form-description {
-    flex-basis: 35%;
+    flex-basis: 33%;
+  }
+  input[type=button] {
+    padding: 15px 0;
+    font-size: 1.5em;
+  }
+  input[type=text] {
+    padding: 15px;
+    font-size: 1.125em;
   }
 
   /* Desktop - Features Area ---- */
+  .features h2 {
+    width: 90%;
+    margin-bottom: 40px;
+  }
   .feature-items {
     justify-content: space-around;
   }
   .features article {
     flex-basis: 20%;
   }
+  .features article {
+    flex-basis: 20%;
+    margin-top: 50px;
+  }
 
   /* Desktop - Reviews section ---- */
-  .reviews article {
-    justify-content: space-between;
+  .reviews h2 {
+    margin-bottom: 90px;
   }
 
   /* Tablet - Footer section ----- */
@@ -752,6 +789,9 @@ and iframe will take up 100% width and height of parent container */
   footer .social {
     width: 25%;
   }
+  .social-icons i {
+    font-size: 1.125em;
+  }
 
   /* ABOUT PAGE DESKTOP STYLES -------------- */
 
@@ -763,7 +803,6 @@ and iframe will take up 100% width and height of parent container */
   }
 
   /* FAQ PAGE DESKTOP STYLES  -------------- */
-
   /* None - same as Tablet layout */
 
 
